@@ -1,0 +1,7 @@
+name: ReLimitPoke
+version: '1.4'
+main: io.github.swagree.relimitpoke.Main
+
+commands:
+  rlp:
+    description: hh

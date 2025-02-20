@@ -1,0 +1,41 @@
+Breed:
+  unBreed:
+    #生出来的孩子大于等于几v 绝育孩子(不允许孩子生殖)
+    V: 5
+    message: "&c已为您自动绝育"
+  #生出来的孩子大于等于几v 绑定孩子(不允许孩子交易)
+  bind:
+    V: 5
+    message: "&c已为您自动绑定"
+  #大于等于多少V的精灵不允许加入牧场
+  joinRanch:
+    V: 6
+    message: "&c大于等于6v的宝可梦不允许加入"
+    whitelist:
+      - "百变怪"
+  unBreedFamily:
+  # 繁殖之后 父母大于等于多少V 绝育父母 默认不开启 想要开启改成你想要的数字 只绝育父母中大于这个V的
+    V: 7
+    message: "&c已为您自动绑定"
+  #不允许mt繁殖 是否开启 默认不开启
+  mtBreed:
+    enable: false
+    message: "&cmt不允许加入牧场"
+  #是否让红线和不变之石变成一次性
+  Once:
+    message: "&c该道具一次性"
+    enable: true
+  #不允许哪些宝可梦加入牧场（支持魔改 一般魔改名称为pixelmon.hu01.name）
+  blackListJoin:
+    message: "&c%pokemon%不允许加入牧场"
+    list:
+      - "皮卡丘"
+  #不允许繁殖出哪些宝可梦
+  blackListMakeEgg:
+    message: "&c%pokemon%不允许繁殖 已取消该次繁殖"
+    list:
+      - "皮卡丘"
+  onlyOwner:
+    enable: false
+    message: "&b只有初训师允许将他加入到牧场"
+
